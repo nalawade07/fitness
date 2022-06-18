@@ -7,7 +7,7 @@
 
 :root{
     --brown:rgb(116, 165, 173);
-    --back:rgba(49, 67, 75, 0.897);
+    --back:rgba(49, 67, 75, 0.993);
     --black_bg:black;
     /* --brown:#c5872bf8; */
 }
@@ -277,7 +277,7 @@ position: relative;
     width:98.8%;
 }
 .table{
-    background-color:rgb(3, 49, 58);
+    background-color:rgb(3, 39, 46);
     /* rgb(39, 53, 59) */
     padding:1rem 2.2rem;
     width:100vw;
@@ -415,7 +415,8 @@ footer .copy{
         grid-row-gap:2rem;  
         position:absolute;
         top:8%;
-        background-color:var(--brown);
+        background-color:var(--back);
+        /* background-color:var(--brown); */
         width:101%;
         border-radius:3px;
         left:-150%;
@@ -494,7 +495,8 @@ form input{
         position:absolute;
         top:8%;
         /* background-color:#94842a; */
-        background-color:var(--brown);
+        background-color:var(--back);
+        /* background-color:var(--brown); */
         width:101%;
         border-radius:3px;
         left:-150%;
@@ -601,7 +603,8 @@ height:40px;
         position:absolute;
         top:8%;
         /* background-color:#942a2a; */
-        background-color:var(--brown);
+        background-color:var(--back);
+        /* background-color:var(--brown); */
         width:101%;
         border-radius:3px;
         left:-150%;
@@ -744,7 +747,7 @@ height:40px;
             position:absolute;
             top:8%;
             /* background-color:#942a2a; */
-            background-color:var(--brown);
+            background-color:var(--back);
             width:101%;
             border-radius:3px;
             left:-150%;
@@ -1112,7 +1115,7 @@ height:40px;
                 top:8%;
                 /* background-color:#942a2a; */
             /* background-color: rgb(49, 67, 75); */
-                background-color:var(--brown);
+                background-color:var(--back);
                 width:101%;
                 border-radius:3px;
                 left:-150%;
@@ -1385,7 +1388,7 @@ tr th span{
         }
     
         .faci-container{
-            margin-top:-4rem;
+            margin-top:-3rem;
         }
     
 
@@ -1549,9 +1552,9 @@ font-weight:600;
             grid-row-gap:2rem;  
             position:absolute;
             top:8%;
-            background-color:#ff0606;
+            /* background-color:#ff0606; */
             /* background-color: rgb(49, 67, 75); */
-            /* background-color:var(--back); */
+            background-color:var(--back);
             width:101%;
             border-radius:3px;
             left:-150%;
@@ -1775,9 +1778,9 @@ font-weight:bolder;
             grid-row-gap:2rem;  
             position:absolute;
             top:8%;
-            background-color:#8b2a94;
+            /* background-color:#8b2a94; */
             /* background-color: rgb(49, 67, 75); */
-            /* background-color:var(--back); */
+            background-color:var(--back);
             width:101%;
             border-radius:3px;
             left:-150%;
@@ -1809,7 +1812,7 @@ font-weight:bolder;
             padding:.3rem 1rem;
         }
         .main-bg{
-            height:500px;
+            height:480px;
         }
     
     /* ///////// card  //////// */
