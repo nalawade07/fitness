@@ -2,6 +2,7 @@
     margin:0;
     padding:0;
     box-sizing:border-box;
+    scroll-behavior:smooth;
 }
 
 :root{
@@ -275,8 +276,9 @@ position: relative;
     padding:2rem;
 }
 .table{
-    background-color:rgb(30, 91, 100);
+    background-color:rgb(3, 49, 58);
     /* rgb(39, 53, 59) */
+    padding:1rem;
     width:100vw;
 }
 .table img{
@@ -410,7 +412,7 @@ footer .copy{
         flex-direction: column;
         grid-row-gap:2rem;  
         position:absolute;
-        top:9%;
+        top:8%;
         background-color:var(--brown);
         width:101%;
         border-radius:3px;
@@ -471,6 +473,12 @@ footer .copy{
 width:100px;
 height:40px;
 }
+form input{
+    height:1rem;
+}
+.givup{
+    height:190px;
+}
 
 }
 
@@ -481,7 +489,7 @@ height:40px;
         flex-direction: column;
         grid-row-gap:2rem;  
         position:absolute;
-        top:9%;
+        top:8%;
         /* background-color:#94842a; */
         background-color:var(--brown);
         width:101%;
@@ -573,6 +581,9 @@ form button{
 width:100px;
 height:40px;
 }
+.givup{
+    height:230px;
+}
 
 }
 
@@ -585,7 +596,7 @@ height:40px;
         flex-direction: column;
         grid-row-gap:2rem;  
         position:absolute;
-        top:9%;
+        top:8%;
         /* background-color:#942a2a; */
         background-color:var(--brown);
         width:101%;
@@ -710,6 +721,9 @@ form button{
 width:100px;
 height:40px;
 }
+.givup{
+    height:230px;
+}
 
 }
 
@@ -725,7 +739,7 @@ height:40px;
             flex-direction: column;
             grid-row-gap:2rem;  
             position:absolute;
-            top:9%;
+            top:8%;
             /* background-color:#942a2a; */
             background-color:var(--brown);
             width:101%;
@@ -850,7 +864,7 @@ height:40px;
     }
     form button{
         width:40%;
-        height:2.3rem;
+        height:2.2rem;
         font-size: .7rem;
         padding:0;
     }
@@ -858,8 +872,13 @@ height:40px;
     width:100px;
     height:40px;
     }
-    
+    form input{
+        height:2.2rem;
     }
+    .givup{
+        height:230px;
+    }
+}
 
 
 
@@ -1019,18 +1038,24 @@ height:40px;
         form{
             margin-top:25%;
         }
-        form button{
-            width:40%;
-            height:2.3rem;
-            font-size: .7rem;
-            padding:0;
-        }
         .tbody td th{
         width:100px;
         height:40px;
         }
+        form button{
+            width:40%;
+            height:2.2rem;
+            font-size: .7rem;
+            padding:0;
+        }
         ::placeholder{
             font-size:.9rem;
+        }
+        form input{
+            height:2.2rem;
+        }
+        .givup{
+            height:190px;
         }
     }
 
@@ -1248,12 +1273,18 @@ tr th span{
         }
         form button{
             width:40%;
-            height:2.3rem;
+            height:2.2rem;
             font-size: .7rem;
             padding:0;
         }
         ::placeholder{
             font-size:.9rem;
+        }
+        form input{
+            height:2.2rem;
+        }
+        .givup{
+            height:190px;
         }
 
  }
@@ -1462,12 +1493,18 @@ font-weight:600;
     }
     form button{
         width:40%;
-        height:2.3rem;
+        height:2.2rem;
         font-size: .7rem;
         padding:0;
     }
     ::placeholder{
         font-size:.9rem;
+    }
+    form input{
+        height:2.2rem;
+    }
+    .givup{
+        height:190px;
     }
 }
 
@@ -1678,6 +1715,9 @@ font-weight:600;
 
     form{
         margin-top:25%;
+    }
+    form input{
+        height:2.2rem;
     }
     form button{
         width:30%;
