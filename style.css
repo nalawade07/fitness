@@ -1356,7 +1356,7 @@ tr th span{
             padding:.3rem 1rem;
         }
         .main-bg{
-            height:580px;
+            height:480px;
         }
     
     /* ///////// card  //////// */
@@ -1384,7 +1384,11 @@ tr th span{
          letter-spacing:.2px;
         }
     
+        .faci-container{
+            margin-top:-4rem;
+        }
     
+
     /* /////////  machine card  //////// */
     
     
