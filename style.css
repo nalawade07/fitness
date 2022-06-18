@@ -1098,7 +1098,7 @@ height:40px;
             /* margin-top: .3rem; */
         }
         .main-bg{
-            height:520px;
+            height:526px;
         }
             .ul{
                 flex-direction: column;
@@ -1157,7 +1157,7 @@ height:40px;
              letter-spacing:.3px;
             }
             .faci-container{
-                margin-top:8.7rem;
+                margin-top:9rem;
             }
         
         /* /////////  machine card  //////// */
@@ -1181,7 +1181,10 @@ height:40px;
                 font-weight: 600;
             }
             .bgimg1 h4{
-                font-size:.8rem;
+                padding: .3rem 0;
+                font-size:.7rem;
+                letter-spacing:.3px;
+                font-weight:bolder;
             }
 
             .bgimg1{
