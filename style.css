@@ -1105,8 +1105,8 @@ height:40px;
                 grid-row-gap:2rem;  
                 position:absolute;
                 top:8%;
-                /* background-color:#942a2a; */
-            background-color: rgb(49, 67, 75);
+                background-color:#942a2a;
+            /* background-color: rgb(49, 67, 75); */
                 /* background-color:var(--brown); */
                 width:101%;
                 border-radius:3px;
@@ -1157,7 +1157,7 @@ height:40px;
              letter-spacing:.3px;
             }
             .faci-container{
-                margin-top:9rem;
+                margin-top:8.7rem;
             }
         
         /* /////////  machine card  //////// */
@@ -1181,7 +1181,7 @@ height:40px;
                 font-weight: 600;
             }
             .bgimg1 h4{
-                font-size:1rem;
+                font-size:.8rem;
             }
 
             .bgimg1{
