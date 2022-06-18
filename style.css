@@ -1326,9 +1326,9 @@ tr th span{
             grid-row-gap:2rem;  
             position:absolute;
             top:8%;
-            background-color:#c5cf3b;
+            /* background-color:#c5cf3b; */
             /* background-color: rgb(49, 67, 75); */
-            /* background-color:var(--brown); */
+            background-color:var(--back);
             width:101%;
             border-radius:3px;
             left:-150%;
