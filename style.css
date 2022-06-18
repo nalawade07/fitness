@@ -274,11 +274,12 @@ position: relative;
     justify-content:space-around;
     place-items:center;
     padding:2rem;
+    width:98.8%;
 }
 .table{
     background-color:rgb(3, 49, 58);
     /* rgb(39, 53, 59) */
-    padding:1rem;
+    padding:1rem 2.2rem;
     width:100vw;
 }
 .table img{
@@ -322,6 +323,7 @@ form input{
 width:200px;
 height:2.8rem;
 position: relative;
+font-size:1rem;
 border-radius: 3px;
 outline: none;
 border:none;
@@ -475,6 +477,7 @@ height:40px;
 }
 form input{
     height:1rem;
+    font-size:.9rem;
 }
 .givup{
     height:190px;
@@ -566,7 +569,7 @@ footer .copy{
 form input{
     width:200px;
     height:2.3rem;
-    font-size: .6rem;
+    font-size: .9rem;
 }
 form{
     margin-top:25%;
@@ -706,7 +709,7 @@ footer .copy{
 form input{
     width:200px;
     height:2.3rem;
-    font-size: .6rem;
+    font-size: .9rem;
 }
 form{
     margin-top:25%;
@@ -874,6 +877,7 @@ height:40px;
     }
     form input{
         height:2.2rem;
+        font-size:.9rem;
     }
     .givup{
         height:230px;
@@ -1049,9 +1053,10 @@ height:40px;
             padding:0;
         }
         ::placeholder{
-            font-size:1.1rem;
+            font-size:.9rem;
         }
         form input{
+            font-size:.9rem;
             height:2.2rem;
         }
         .givup{
@@ -1281,10 +1286,11 @@ tr th span{
             padding:0;
         }
         ::placeholder{
-            font-size:1.1rem;
+            font-size:.9rem;
         }
         form input{
             height:2.2rem;
+            font-size:.9rem;
         }
         .givup{
             height:190px;
@@ -1294,7 +1300,7 @@ tr th span{
 
 
        
- @media screen and (max-width:363px) and (min-width:307px){
+ @media screen and (max-width:363px) and (min-width:315px){
 
     /* ///////// nav  //////// */
     
@@ -1350,7 +1356,7 @@ tr th span{
             padding:.3rem 1rem;
         }
         .main-bg{
-            height:430px;
+            height:580px;
         }
     
     /* ///////// card  //////// */
@@ -1503,10 +1509,11 @@ font-weight:600;
         padding:0;
     }
     ::placeholder{
-        font-size:1.1rem;
+        font-size:.9rem;
     }
     form input{
         height:2.2rem;
+        font-size: .9rem;
     }
     .givup{
         height:190px;
@@ -1515,229 +1522,7 @@ font-weight:600;
 
 
       
-@media screen and (max-width:306px) and (min-width:314px){
-
-    /* ///////// nav  //////// */
-    
-    header{
-   padding:2rem 1.2rem;
-    }
-
-    .logo img{
-        width:120px;
-        height:120px;
-    }
-    .login img{
-        width:30px;
-        height:30px;
-        cursor: pointer;
-    } 
-        .ul{
-            flex-direction: column;
-            grid-row-gap:2rem;  
-            position:absolute;
-            top:8%;
-            background-color:#8b2a94;
-            /* background-color: rgb(49, 67, 75); */
-            /* background-color:var(--back); */
-            width:101%;
-            border-radius:3px;
-            left:-150%;
-            padding:1.7rem;
-            transition:0.6s;
-            z-index:100000;
-            text-align: center;
-        }
-        header{
-            background-color:white;
-        }
-        .burger img{
-            width:35px;
-            height:35px;
-            cursor: pointer;
-        }
-        .burger{
-            display: block;
-        }
-        .ul.active{
-            position: absolute;
-            left:-1%;
-        }
-        li a{
-            font-size:1.2rem;
-        }
-    
-        .btn a{
-            padding:.3rem 1rem;
-        }
-        .main-bg{
-            height:200px;
-        }
-    
-    /* ///////// card  //////// */
-    
-
-    .facility h2{
-        font-size:1.4rem;
-    }
-    
-        .card-faci{
-            margin-top:.5rem;
-            grid-row-gap:1rem;
-            grid-column-gap:.5rem;
-            grid-template-columns: repeat(1,1fr);
-        }
-        .card h3{
-            font-size:1rem;
-        }
-        .card{
-            width:250px;
-            padding:.4rem .3rem;
-        }
-        .card .para{
-         font-size:1rem;
-         letter-spacing:.2px;
-        }
-    
-    
-    /* /////////  machine card  //////// */
-    
-    
-        .machine-card{
-            display:grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            grid-template-rows: repeat(1, 1fr);
-            grid-column-gap:.6rem;
-            width:97%;
-        }
-        .machine-card img{
-            width:250px;
-            height:280px;
-        }
-        .bgimg1 p{
-            width:250px;
-            font-size:.8rem;
-            letter-spacing:.8px;
-            font-weight:600;
-            /* margin-left:.5rem; */
-        }
-        .bgimg1 h4{
-            font-size:1.2rem;
-            padding-top:.2rem;
-        }
-
-        .bgimg1{
-            padding: 0rem 0rem 0rem 0rem;
-        }
-    
-    
-    /* ///////// video  //////// */
-    
-    
-    
-    .content-v{
-        position:absolute;
-        top:25px;
-        margin-left:-50%;
-    }
-    .content-v h3{
-        font-size:1.3rem;
-    } 
-    .video{
-        height:200px;
-    }
-    
-    /* ///////// footer  //////// */
-    
-    
-    
-    footer .addres{
-        padding:2.5rem 0;
-    }
-    footer .addres li a{
-        font-size:.8rem;
-    }
-    footer .copy{
-        font-size:1rem;
-    }
-    .copy img{
-        width:20px;
-        height:20px;
-    }
-    form input{
-        width:200px;
-        height:2.3rem;
-        font-size: .6rem;
-    }
-    footer{
-        padding:0rem .7rem;
-        height:280px;
-    }
-    footer a{
-        padding:.7rem;
-        font-size: 1rem;
-    }
-
-/* ////////////  table    /////////// */
-
-
-tbody tr th{
-    padding:0rem;
-}
-td img{
-    width:10px;
-    height:16px;
-}
-tr th{
-font-size:.5rem;
-font-weight:800;
-}
-tr th span{
-font-size:.5rem;
-font-weight:600;
-}
-
-.tbody td th{
-    width:100px;
-    height:40px;
-    }
-    .plan{
-        padding-top:2rem;
-    }
-    .price_sec{
-        padding:0rem;
-    }
-    .table span{
-        font-size: .9rem;
-    }
-
-/* ////////// input  /////////// */
-
-.givup{
-    height:220px;
-}
-
-    form{
-        margin-top:25%;
-    }
-    form input{
-        height:2.2rem;
-    }
-    form button{
-        width:30%;
-        height:2.3rem;
-        font-size: .7rem;
-        padding:0;
-    }
-    ::placeholder{
-        font-size:1.1rem;
-    }
-
-}
-
-
-      
-@media screen and (max-width:313px) and (min-width:240px){
+@media screen and (max-width:314px) and (min-width:307px){
 
     /* ///////// nav  //////// */
     
@@ -1945,21 +1730,246 @@ font-weight:bolder;
     }
     form input{
         height:2.2rem;
+        font-size:.9rem;
     }
     form button{
-        width:30%;
-        height:2.3rem;
+        width:34%;
+        height:2.2rem;
         font-size: .7rem;
         padding:0;
     }
     ::placeholder{
-        font-size:1.1rem;
+        font-size:.9rem;
     }
 
 }
 
 
 
+
+
+      
+@media screen and (max-width:306px) and (min-width:240px){
+
+    /* ///////// nav  //////// */
+    
+    header{
+   padding:2rem 1.2rem;
+    }
+
+    .logo img{
+        width:120px;
+        height:120px;
+    }
+    .login img{
+        width:30px;
+        height:30px;
+        cursor: pointer;
+    } 
+        .ul{
+            flex-direction: column;
+            grid-row-gap:2rem;  
+            position:absolute;
+            top:8%;
+            background-color:#8b2a94;
+            /* background-color: rgb(49, 67, 75); */
+            /* background-color:var(--back); */
+            width:101%;
+            border-radius:3px;
+            left:-150%;
+            padding:1.7rem;
+            transition:0.6s;
+            z-index:100000;
+            text-align: center;
+        }
+        header{
+            background-color:white;
+        }
+        .burger img{
+            width:35px;
+            height:35px;
+            cursor: pointer;
+        }
+        .burger{
+            display: block;
+        }
+        .ul.active{
+            position: absolute;
+            left:-1%;
+        }
+        li a{
+            font-size:1.2rem;
+        }
+    
+        .btn a{
+            padding:.3rem 1rem;
+        }
+        .main-bg{
+            height:500px;
+        }
+    
+    /* ///////// card  //////// */
+    
+
+    .facility h2{
+        font-size:1.4rem;
+    }
+    
+        .card-faci{
+            margin-top:.5rem;
+            grid-row-gap:1rem;
+            grid-column-gap:.5rem;
+            grid-template-columns: repeat(1,1fr);
+        }
+        .card h3{
+            font-size:1rem;
+        }
+        .card{
+            width:250px;
+            padding:.4rem .3rem;
+        }
+        .card .para{
+         font-size:1rem;
+         letter-spacing:.2px;
+        }
+    
+    
+    /* /////////  machine card  //////// */
+    
+    
+        .machine-card{
+            display:grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            grid-template-rows: repeat(1, 1fr);
+            grid-column-gap:.6rem;
+            width:97%;
+        }
+        .machine-card img{
+            width:250px;
+            height:280px;
+        }
+        .bgimg1 p{
+            width:250px;
+            font-size:.8rem;
+            letter-spacing:.8px;
+            font-weight:600;
+            /* margin-left:.5rem; */
+        }
+        .bgimg1 h4{
+            font-size:1.2rem;
+            padding-top:.2rem;
+        }
+
+        .bgimg1{
+            padding: 0rem 0rem 0rem 0rem;
+        }
+    
+    
+    /* ///////// video  //////// */
+    
+    
+    
+    .content-v{
+        position:absolute;
+        top:25px;
+        margin-left:-50%;
+    }
+    .content-v h3{
+        font-size:1.3rem;
+    } 
+    .video{
+        height:200px;
+    }
+    
+    /* ///////// footer  //////// */
+    
+    
+    
+    footer .addres{
+        padding:2.5rem 0;
+    }
+    footer .addres li a{
+        font-size:.8rem;
+    }
+    footer .copy{
+        font-size:1rem;
+    }
+    .copy img{
+        width:20px;
+        height:20px;
+    }
+    form input{
+        width:200px;
+        height:2.3rem;
+        font-size: .6rem;
+    }
+    footer{
+        padding:0rem .7rem;
+        height:280px;
+    }
+    footer a{
+        padding:.7rem;
+        font-size: 1rem;
+    }
+
+/* ////////////  table    /////////// */
+
+
+tbody tr th{
+    padding:0rem;
+}
+td img{
+    width:10px;
+    height:16px;
+}
+tr th{
+font-size:.5rem;
+font-weight:800;
+}
+tr th span{
+font-size:.5rem;
+font-weight:600;
+}
+
+.tbody td th{
+    width:100px;
+    height:40px;
+    }
+    .plan{
+        padding-top:2rem;
+    }
+    .price_sec{
+        padding:0rem;
+    }
+    .table span{
+        font-size: .9rem;
+    }
+
+/* ////////// input  /////////// */
+
+.givup{
+    height:220px;
+}
+
+    form{
+        margin-top:25%;
+    }
+    form input{
+        height:2.2rem;
+        font-size:.9rem;
+
+    }
+    form button{
+        width:34%;
+        height:2.2rem;
+        font-size: .7rem;
+        padding:0;
+    }
+    ::placeholder{
+        font-size:.9rem;
+    }
+
+}
 
 
 
