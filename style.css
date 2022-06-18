@@ -834,7 +834,7 @@ height:40px;
     }
     footer{
         padding:.8rem;
-        height:350px;
+        height:270px;
     }
 
 
@@ -879,7 +879,7 @@ height:40px;
                 flex-direction: column;
                 grid-row-gap:2rem;  
                 position:absolute;
-                top:9%;
+                top:7%;
                 /* background-color:#942a2a; */
             background-color: rgb(49, 67, 75);
                 /* background-color:var(--brown); */
@@ -1005,7 +1005,7 @@ height:40px;
         }
         footer{
             padding:.8rem;
-            height:350px;
+            height:320px;
         }
     
     
@@ -1074,7 +1074,7 @@ height:40px;
                 flex-direction: column;
                 grid-row-gap:2rem;  
                 position:absolute;
-                top:9%;
+                top:7%;
                 /* background-color:#942a2a; */
             background-color: rgb(49, 67, 75);
                 /* background-color:var(--brown); */
@@ -1199,7 +1199,7 @@ height:40px;
         }
         footer{
             padding:0rem .7rem;
-            height:350px;
+            height:280px;
         }
         footer a{
             padding:.7rem;
@@ -1277,7 +1277,7 @@ tr th span{
             flex-direction: column;
             grid-row-gap:2rem;  
             position:absolute;
-            top:9%;
+            top:7%;
             /* background-color:#942a2a; */
             background-color: rgb(49, 67, 75);
             /* background-color:var(--brown); */
@@ -1411,7 +1411,7 @@ tr th span{
     }
     footer{
         padding:0rem .7rem;
-        height:300px;
+        height:280px;
     }
     footer a{
         padding:.7rem;
@@ -1490,7 +1490,7 @@ font-weight:600;
             flex-direction: column;
             grid-row-gap:2rem;  
             position:absolute;
-            top:9%;
+            top:7%;
             /* background-color:#942a2a; */
             background-color: rgb(49, 67, 75);
             /* background-color:var(--back); */
@@ -1625,7 +1625,7 @@ font-weight:600;
     }
     footer{
         padding:0rem .7rem;
-        height:300px;
+        height:280px;
     }
     footer a{
         padding:.7rem;
