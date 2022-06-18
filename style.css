@@ -103,7 +103,7 @@ background-size:cover;
 
 
 .faci-container{
-    background-color:var(--back);
+    background-color:rgb(49, 67, 75);
     height:100%;
     width:100%;
     margin:-3rem 0;
@@ -1098,7 +1098,7 @@ height:40px;
             /* margin-top: .3rem; */
         }
         .main-bg{
-            height:526px;
+            height:520px;
         }
             .ul{
                 flex-direction: column;
@@ -1157,7 +1157,7 @@ height:40px;
              letter-spacing:.3px;
             }
             .faci-container{
-                margin-top:9rem;
+                margin-top:8.5rem;
             }
         
         /* /////////  machine card  //////// */
@@ -1181,7 +1181,7 @@ height:40px;
                 font-weight: 600;
             }
             .bgimg1 h4{
-                padding: .3rem 0;
+                padding-top:.3rem;
                 font-size:.7rem;
                 letter-spacing:.3px;
                 font-weight:bolder;
@@ -1317,8 +1317,8 @@ tr th span{
             grid-row-gap:2rem;  
             position:absolute;
             top:8%;
-            /* background-color:#942a2a; */
-            background-color: rgb(49, 67, 75);
+            background-color:#c5cf3b;
+            /* background-color: rgb(49, 67, 75); */
             /* background-color:var(--brown); */
             width:101%;
             border-radius:3px;
@@ -1350,7 +1350,7 @@ tr th span{
             padding:.3rem 1rem;
         }
         .main-bg{
-            height:500px;
+            height:513px;
         }
     
     /* ///////// card  //////// */
@@ -1401,8 +1401,10 @@ tr th span{
             margin-left:.5rem;
         }
         .bgimg1 h4{
-            font-size:.8rem;
-            padding-top:.2rem;
+            font-size:.7rem;
+            padding-top:.3rem;
+            font-weight:bolder;
+            letter-spacing:.3px;
         }
 
         .bgimg1{
@@ -1468,7 +1470,7 @@ td img{
     height:16px;
 }
 tr th{
-font-size:.6rem;
+font-size:.7rem;
 font-weight:bolder;
 }
 tr th span{
