@@ -3,6 +3,7 @@
     padding:0;
     box-sizing:border-box;
     scroll-behavior:smooth;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 :root{
@@ -32,7 +33,8 @@ header{
     height:40px;
     width:100%;
     margin:auto;
-            background-color:var(--brown);
+    background-color:rgba(61, 85, 95, 0.993);
+            /* background-color:var(--brown); */
     /* position: relative; */
     z-index:10000;
 }
@@ -50,7 +52,8 @@ header{
     text-decoration:none;
     font-size:1.2rem;
     font-weight: bold;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;;
+    /* font-family:Arial, Helvetica, sans-serif; */
     color:white;
     display: inline-block;
 }
