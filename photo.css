@@ -76,13 +76,14 @@ color:rgb(33, 39, 39);
 
 .gallery-content{
     text-align: center;
-    padding:2rem;
+    /* padding:2rem; */
 }
 .name{
     background-color:rgba(210, 230, 236, 0.829);
     border:1px solid  rgb(181, 202, 207);
     border-radius:10px;
     width:100%;
+    margin:1rem 0rem;
 }
 .name h1{
 color:rgba(53, 69, 80, 0.938);
@@ -100,6 +101,10 @@ color:rgba(53, 69, 80, 0.938);
     place-items:center;
     justify-content: center;
     margin:0 auto;    
+}
+.card-bg{
+    background-color:rgba(190, 189, 189, 0.322); 
+    padding: 1rem;
 }
 .gallery .img img{
     width:100%;
@@ -136,7 +141,7 @@ footer{
     height:300px;
 }
 footer hr{
-    color:rgb(143, 135, 135);
+    color:rgb(73, 71, 71);
     margin-bottom:.2rem;
     width:100%;
 }

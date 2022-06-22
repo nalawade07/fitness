@@ -197,6 +197,10 @@ color:rgb(24, 29, 29);
     width: 90%;
     text-align: center;
 }
+.card-bg{
+    background-color:var(--back);
+    padding: 1rem;
+}
 .machine-card img{
     width:290px;
     height:270px;
