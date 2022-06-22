@@ -2,11 +2,12 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
+    user-select: none;
 }
 
 
 :root{
-    --font:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    --font: 'Poppins', sans-serif;
     --brown:rgb(116, 165, 173);
     --back:rgba(49, 67, 75, 0.993);
     --black_bg:black;
@@ -86,6 +87,7 @@ color:rgb(33, 39, 39);
     margin:1rem 0rem;
 }
 .name h1{
+    font-family:var(--font);
 color:rgba(53, 69, 80, 0.938);
 }
 
