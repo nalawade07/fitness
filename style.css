@@ -197,7 +197,7 @@ color:rgb(24, 29, 29);
     text-align: center;
 }
 .card-bg{
-    border-radius:100px;
+    border-radius:60px;
     background-color:var(--back);
     padding: 1rem;
 }
